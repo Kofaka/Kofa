@@ -2,14 +2,19 @@
   text-align: center;
   background-color: #61dafb;
   height: 100vh;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('landingpagepic.jpg');*/
+  background-image: linear-gradient( rgba(0, 13, 31, 0.7), rgba(0, 0, 0, 0.2) ), url(./bg-wallpaper.jpg);
+  background-position: 0 0;
+  background-size: cover;
 }
 
 .App-logo {
   height: 80px;
+  /*display: none;*/
 }
 
 .App-header {
-  background-color: #222;
+  /*background-color: #222;*/
   height: 20vh;
   padding: 20px;
   color: white;
@@ -17,6 +22,7 @@
 
 .App-title {
   font-size: 2.5em;
+  text-shadow: 0.05em 0.05em 0 #181d7b;
 }
 
 .App-intro {
