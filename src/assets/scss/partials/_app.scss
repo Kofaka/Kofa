@@ -1,10 +1,12 @@
 .App {
-  text-align: center;
+  position: relative;
+  min-height: 100vh;
   background-color: #61dafb;
-  height: 100vh;
   background-image: linear-gradient(rgba(0, 13, 31, 0.7), rgba(0, 0, 0, 0.2)), url(./bg-wallpaper.jpg);
   background-position: 0 0;
   background-size: cover;
+  text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -75,6 +77,17 @@
   &:focus {
     color: #0c4150;
   }
+}
+
+.comodo-logo {
+  position: absolute;
+  content: '';
+  display: block;
+  right: 2em;
+  bottom: 2em;
+  width: 76px;
+  height: 26px;
+  background-image: url(./comodo_secure_seal_76x26_transp.png);
 }
 
 @keyframes Builder-scale {
